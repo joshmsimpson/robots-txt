@@ -1,4 +1,4 @@
-# robots-txt
+# robotstxt
 
 An intuitive Rust library for parsing and querying robots.txt files.
 

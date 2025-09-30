@@ -850,7 +850,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "robots-txt"
+name = "robotstxt"
 version = "0.1.0"
 dependencies = [
  "reqwest",

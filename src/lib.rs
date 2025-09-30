@@ -12,7 +12,7 @@
 //! ## Example
 //!
 //! ```rust
-//! use robots_txt::RobotsTxt;
+//! use robotstxt::RobotsTxt;
 //!
 //! # fn main() {
 //! let content = r#"
