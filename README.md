@@ -1,6 +1,6 @@
 # robotstxt-rs
 
-An intuitive Rust library for parsing and querying robots.txt files.
+An intuitive Rust library for aquiring, parsing and querying robots.txt files.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-robotstxt-rs = "0.1.1"
+robotstxt-rs = "0.1.2"
 ```
 
 ## Usage Examples
