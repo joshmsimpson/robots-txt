@@ -1,4 +1,4 @@
-# robotstxt
+# robotstxt-rs
 
 An intuitive Rust library for parsing and querying robots.txt files.
 
@@ -8,13 +8,13 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-robotstxt = "0.1"
+robotstxt-rs = "0.1"
 ```
 
 ## Usage Example
 
 ```rust
-use robotstxt::RobotsTxt;
+use robotstxt_rs::RobotsTxt;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {

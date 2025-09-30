@@ -1,5 +1,5 @@
 [package]
-name = "robotstxt"
+name = "robotstxt-rs"
 version = "0.1.0"
 edition = "2021"
 authors = ["joshmsimpson"]
@@ -7,7 +7,7 @@ license = "MIT"
 description = "A Rust library for parsing and querying robots.txt files"
 repository = "https://github.com/joshmsimpson/robots-txt"
 homepage = "https://github.com/joshmsimpson/robots-txt"
-documentation = "https://docs.rs/robotstxt"
+documentation = "https://docs.rs/robotstxt-rs"
 readme = "README.md"
 keywords = ["robots", "robotstxt", "robots-txt", "parser", "robots_txt"]
 categories = ["parser-implementations", "web-programming", "network-programming"]
