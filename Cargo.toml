@@ -1,0 +1,24 @@
+[package]
+name = "robots-txt"
+version = "0.1.0"
+edition = "2021"
+authors = ["joshmsimpson"]
+license = "MIT"
+description = "A Rust library for parsing and querying robots.txt files"
+repository = "https://github.com/joshmsimpson/robots-txt"
+homepage = "https://github.com/joshmsimpson/robots-txt"
+documentation = "https://docs.rs/robots-txt"
+readme = "README.md"
+keywords = ["robots", "robotstxt", "robots-txt", "robots.txt", "robots_txt"]
+categories = ["parser-implementations", "web-programming", "network-programming"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking"], optional = true }
+tokio = { version = "1", features = ["full"], optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[features]
+default = ["async"]
+async = ["reqwest", "tokio"]
