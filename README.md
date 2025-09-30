@@ -8,7 +8,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-robotstxt-rs = "0.1"
+robotstxt-rs = "0.1.1"
 ```
 
 ## Usage Examples
