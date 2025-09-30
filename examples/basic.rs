@@ -1,4 +1,4 @@
-use robotstxt::RobotsTxt;
+use robots_txt::RobotsTxt;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
