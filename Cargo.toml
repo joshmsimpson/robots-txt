@@ -9,7 +9,7 @@ repository = "https://github.com/joshmsimpson/robots-txt"
 homepage = "https://github.com/joshmsimpson/robots-txt"
 documentation = "https://docs.rs/robots-txt"
 readme = "README.md"
-keywords = ["robots", "robotstxt", "robots-txt", "robots txt", "robots_txt"]
+keywords = ["robots", "robotstxt", "robots-txt", "parser", "robots_txt"]
 categories = ["parser-implementations", "web-programming", "network-programming"]
 
 [dependencies]
