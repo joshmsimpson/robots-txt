@@ -1,5 +1,9 @@
 # robotstxt-rs
 
+[![Crates.io](https://img.shields.io/crates/v/robotstxt-rs.svg)](https://crates.io/crates/robotstxt-rs)
+[![Documentation](https://docs.rs/robotstxt-rs/badge.svg)](https://docs.rs/robotstxt-rs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An intuitive Rust library for aquiring, parsing and querying robots.txt files.
 
 ## Installation
@@ -8,7 +12,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-robotstxt-rs = "0.1.3"
+robotstxt-rs = "0.1.4"
 ```
 
 ## Usage Examples
